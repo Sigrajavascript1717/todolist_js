@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <!-- Link Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <!-- Bagian Judul Todo -->
+                <h1 class="text-center mb-4">Todo List</h1>
+                
+                <!-- Bagian Input dan Tombol -->
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" id="inputTodo" placeholder="Masukkan todo baru">
+                    <button class="btn btn-primary ms-3" id="addTodo" type="button">Tambah Todo</button>
+                </div>
+
+                <!-- Bagian Daftar Todo -->
+                <ul class="list-group" id="todoList"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+    <!-- Link Bootstrap JS (untuk interaksi tombol, dll) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
